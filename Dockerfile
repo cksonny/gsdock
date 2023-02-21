@@ -9,7 +9,7 @@ GS_SERVER_USER=abc \
 ECHO_PREFIX="[gsdock]"
 
 # Download latest 64-bit release of GoodSync (Linux)
-ADD https://www.goodsync.com/download/goodsync-release-x86_64.tar.gz?v=11.3.2 /tmp/goodsync-release-x86_64.tar.gz
+ADD https://www.goodsync.com/download/goodsync-release-x86_64.tar.gz /tmp/goodsync-release-x86_64.tar.gz
 
 RUN \
  echo "**** install gs-server ****" && \
